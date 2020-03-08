@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="utf-8" />
+	<script type="module">
+		import App from '../../src/App.js';
+		App.setConfig({
+			'cours': 'Exemple',
+			'titre': 'Complexe',
+			'version': '',
+		});
+	</script>
+	<title>Exemple</title>
+</head>
+
+<body data-questions-alea="false">
+	<div><a href="../index.html#complexe" target="_blank">Documentation</a></div>
+	<div class="qr-question-complexe" id="complexe">
+		<header>
+			<p>Ceci est une question complexe.</p>
+		</header>
+		<div class="qr-body qr-ligne">
+			<div>
+				<p>Une sous-question: [<i>div&gt;(p&gtlorem10)+(div.qr-reponses&gt;div.qr-reponse&gt;span.qr-solution&gt;lorem3)</i>].</p>
+				<div class="qr-reponses">
+					<div class="qr-reponse"><span class="qr-solution">fkfldlfkdl</span></div>
+					<div class="qr-reponse"><span class="qr-solution">fkfldlfkdl</span></div>
+				</div>
+			</div>
+
+			<div>
+				<p>Cum, modi voluptatum consectetur velit.</p>
+				<div>
+					<div class="qr-reponse">Du texte visible : <span class="qr-solution" data-pts="2">donner un pointage</span></div>
+					<div class="qr-reponse"><span class="qr-solution">ou bien ici <span data-pts="2"></span> <pts "2"> pour la spécificité</span></div>
+				</div>
+
+			</div>
+
+			<div>
+				<p>Corporis quos voluptas quam, minus?</p>
+				<div class="qr-reponses">
+					<div><span class="qr-solution">solution dans un span.qr-solution</span></div>
+					<div data-solution="solution en attribut"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
